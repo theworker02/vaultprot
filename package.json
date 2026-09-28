@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/vaultprot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vault identifiers and prot tokens for idempotent workflows.",
+  "bin": {
+    "vaultprot": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/vaultprot.git"
+  },
+  "homepage": "https://theworker02.github.io/vaultprot/",
+  "keywords": [
+    "vault",
+    "prot",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
